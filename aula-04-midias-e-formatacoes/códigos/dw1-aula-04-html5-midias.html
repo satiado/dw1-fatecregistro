@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserção de mídias no HTML</title>
+</head>
+
+<body>
+
+    <h1>Incorporando mídias ao site</h1>
+
+    <h2>Imagens:</h2>
+    <img src="midias/imagem.jpg" alt="Descrição da imagem" width="600px">
+
+    <h2>Imagens com legenda:</h2>
+    <figure>
+        <img src="midias/grafico.png" alt="Gráfico de crescimento anual" width="300px">
+        <figcaption>Gráfico de crescimento da empresa em 2025</figcaption>
+    </figure>
+
+    <h2>Áudio:</h2>
+    <audio controls>
+        <source src="midias/audio.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+    </audio>
+
+    <h2>Vídeo:</h2>
+    <video controls width="400">
+        <source src="midias/video.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+    </video>
+
+    <h2>Vídeo do youtube (iframe):</h2>
+    <iframe 
+        src="https://www.youtube.com/embed/3g6WChxY14I"
+        title="Exemplo de vídeo"
+        width="560"
+        height="315"
+    >
+    </iframe>
+
+    <h2>Mapas (iframe):</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116208.62181571305!2d-47.89193065311777!3d-24.46745310881846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c53436f4f0c1cb%3A0xbab60b5cc9451e73!2sRegistro%2C%20SP%2C%2011900-000!5e0!3m2!1spt-BR!2sbr!4v1767977241298!5m2!1spt-BR!2sbr"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <h2>Documentos PDFs:</h2>
+    <iframe 
+        src="midias/documento.pdf" 
+        title="Horários DSM-1"
+        width="600"
+        height="450"
+    >
+    </iframe>
+
+    <h2>Vetores (SVG):</h2>
+    <svg width="102" height="102" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M50.8333 0C78.9086 0 101.667 22.7581 101.667 50.8333C101.667 78.9086 78.9086 101.667 50.8333 101.667C22.7581 101.667 0 78.9086 0 50.8333C0 22.7581 22.7581 0 50.8333 0ZM75.9094 56.6639C75.2839 56.4301 74.6185 56.3218 73.9512 56.3453C73.2838 56.3687 72.6276 56.5234 72.0201 56.8005C71.4126 57.0776 70.8656 57.4717 70.4104 57.9602C69.9552 58.4488 69.6007 59.0222 69.3672 59.6478L68.9656 60.7153C67.6695 64.1711 65.413 67.1845 62.4618 69.4009C59.5106 71.6172 55.9875 72.9442 52.3075 73.2254L50.8333 73.2864C46.8898 73.2867 43.0402 72.0832 39.7991 69.8368C36.558 67.5903 34.0799 64.4081 32.696 60.7153L32.2995 59.6478C31.8283 58.3839 30.8743 57.3589 29.6474 56.7984C28.4205 56.2378 27.0212 56.1876 25.7573 56.6588C24.4933 57.13 23.4684 58.084 22.9078 59.3109C22.3473 60.5378 22.2971 61.9372 22.7683 63.2011L23.1749 64.2788V64.2889C25.2862 69.919 29.0656 74.7705 34.008 78.1951C38.9505 81.6196 44.8204 83.454 50.8333 83.4531L51.9517 83.4277C57.7684 83.2075 63.3904 81.2734 68.1114 77.8683C72.8324 74.4632 76.442 69.7389 78.4867 64.2889L78.4918 64.2788L78.8984 63.2011C79.1321 62.5753 79.2401 61.9096 79.2164 61.242C79.1926 60.5744 79.0375 59.9181 78.7599 59.3105C78.4823 58.7029 78.0877 58.1559 77.5985 57.701C77.1095 57.246 76.5355 56.8918 75.9094 56.6588M30.5 30.5C29.1518 30.5 27.8589 31.0356 26.9055 31.9889C25.9522 32.9422 25.4167 34.2352 25.4167 35.5833V40.6667C25.4167 42.0149 25.9522 43.3078 26.9055 44.2611C27.8589 45.2144 29.1518 45.75 30.5 45.75C31.8482 45.75 33.1412 45.2144 34.0945 44.2611C35.0478 43.3078 35.5833 42.0149 35.5833 40.6667V35.5833C35.5833 34.2352 35.0478 32.9422 34.0945 31.9889C33.1412 31.0356 31.8482 30.5 30.5 30.5ZM71.1667 30.5C69.8185 30.5 68.5255 31.0356 67.5722 31.9889C66.6189 32.9422 66.0833 34.2352 66.0833 35.5833V40.6667C66.0833 42.0149 66.6189 43.3078 67.5722 44.2611C68.5255 45.2144 69.8185 45.75 71.1667 45.75C72.5149 45.75 73.8078 45.2144 74.7611 44.2611C75.7144 43.3078 76.25 42.0149 76.25 40.6667V35.5833C76.25 34.2352 75.7144 32.9422 74.7611 31.9889C73.8078 31.0356 72.5149 30.5 71.1667 30.5Z" fill="#00B1FD"/>
+    </svg>
+        
+</body>
+
+</html>
