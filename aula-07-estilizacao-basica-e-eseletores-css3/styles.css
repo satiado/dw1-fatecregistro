@@ -1,0 +1,116 @@
+body{
+    background-color: #30302e;
+    font-family: Verdana;
+    padding: 20px;
+}
+
+header h1{
+    padding: 20px;
+    color: rgb(31, 98, 75);
+    margin-left: 25px;
+    width: 400px;
+    border-radius: 7px;
+    width: 500px;
+    background-color: mediumturquoise;
+}
+
+ h1:hover{
+    background-color: rgb(31, 98, 75);
+    color: mediumturquoise;
+}
+ 
+#sobremim{
+    color: rgb(54, 136, 251);
+    margin-top: 25px;
+    padding: 8px;
+}
+
+#sobremim::after{
+    content: ' ➤';
+    color: darkseagreen;
+}
+
+
+.listamim{
+    background-color: #202020;
+    color: rgb(54, 136, 251);
+    padding: 15px;
+    border-radius: 7px;
+    border: 2px solid aquamarine;
+
+}
+
+.section, ul li{
+    color: rgb(54, 136, 251);
+}
+
+
+.hab{
+    background-color: #202020;
+    padding: 8px;
+    margin-top: 50px;
+    border-radius: 7px;
+    border: 2px solid aqua;
+
+}
+
+.habili{
+    color: dodgerblue;
+    margin-top: 25px;
+    padding: 8px;
+}
+.habilidades h4{
+    padding: 10px;
+    color: lightblue;
+    width: 320px;
+    border: 1px solid;
+    border-radius: 7px;
+
+}
+
+.habilidades h4:hover{
+    background-color: aqua;
+    color:#202020;
+}
+
+.habili::after{
+    content: ' ➤';
+    color: darkseagreen;
+}
+
+.habilidades p{
+    font-family: arial;
+    color: paleturquoise;
+}
+
+.email1{
+    background-color: #202020;
+    margin-top: 25px;
+    padding: 15px;
+    color: teal;
+    border: 2px solid ;
+    border-radius: 7px;
+    align-items: center;
+}
+
+#email2{
+    padding: 5px;
+    margin-top: 15px;
+    background-color: cyan;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.rodape{
+    background-color: darkcyan;
+    height: 100px;
+    width: 100%;
+    align-content: center;
+    padding: 8px;
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+
+ footer p + small {
+    font-weight: bolder;
+ }
